@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "greet",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "greeting",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"learning/inheritanceTwo.sol": "two"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"learning/inheritance.sol": {
+			"keccak256": "0xd26580d906002406df9a76ae4ebb4212005b41eb579bccf127d67f13fc1637bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01fb98f87b19baa24d12d94ea2ffc601e9fb5a58d6791a12a0383528a7abc739",
+				"dweb:/ipfs/QmWfp66siCrsjsY5Xb9XsAQCQdAVJh6W2YG2Bq55uVErPB"
+			]
+		},
+		"learning/inheritanceTwo.sol": {
+			"keccak256": "0x9c3b66dd1ba9468bfbf22ea188c2e89b122e4e03349632573e212be74bf53e83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2ec99a626813f41f774f180336a7633ecd6ab00a1b88929ffdd2fcb7f516b2b",
+				"dweb:/ipfs/QmWdER29BrFWbqDUU7hXJaaqV9EhBLeULUzWnJGtw5vAUr"
+			]
+		}
+	},
+	"version": 1
+}
