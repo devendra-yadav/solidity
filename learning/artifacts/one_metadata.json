@@ -18,6 +18,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "getCity",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "greet",
 				"outputs": [
 					{
@@ -40,6 +53,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_city",
+						"type": "string"
+					}
+				],
+				"name": "setCity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -71,11 +97,11 @@
 	},
 	"sources": {
 		"learning/inheritance.sol": {
-			"keccak256": "0xd26580d906002406df9a76ae4ebb4212005b41eb579bccf127d67f13fc1637bd",
+			"keccak256": "0xa44c7a57f37f5c420bee86fdb7d35b22c03824a6eb7de3bb98bf0e71ca0a397a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01fb98f87b19baa24d12d94ea2ffc601e9fb5a58d6791a12a0383528a7abc739",
-				"dweb:/ipfs/QmWfp66siCrsjsY5Xb9XsAQCQdAVJh6W2YG2Bq55uVErPB"
+				"bzz-raw://05d93625b4c204e73cdc047051bd865381f797c64e83df71c583e352ff3644a1",
+				"dweb:/ipfs/QmV6WS4cER2Q4ido8XssvZmyyDs1m2hspZiJ6WXTqEu4c9"
 			]
 		}
 	},

@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getCity",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "greet",
 				"outputs": [
 					{
@@ -21,6 +34,32 @@
 			{
 				"inputs": [],
 				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_city",
+						"type": "string"
+					}
+				],
+				"name": "setCity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showCity",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -60,19 +99,19 @@
 	},
 	"sources": {
 		"learning/inheritance.sol": {
-			"keccak256": "0xd26580d906002406df9a76ae4ebb4212005b41eb579bccf127d67f13fc1637bd",
+			"keccak256": "0xa44c7a57f37f5c420bee86fdb7d35b22c03824a6eb7de3bb98bf0e71ca0a397a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://01fb98f87b19baa24d12d94ea2ffc601e9fb5a58d6791a12a0383528a7abc739",
-				"dweb:/ipfs/QmWfp66siCrsjsY5Xb9XsAQCQdAVJh6W2YG2Bq55uVErPB"
+				"bzz-raw://05d93625b4c204e73cdc047051bd865381f797c64e83df71c583e352ff3644a1",
+				"dweb:/ipfs/QmV6WS4cER2Q4ido8XssvZmyyDs1m2hspZiJ6WXTqEu4c9"
 			]
 		},
 		"learning/inheritanceTwo.sol": {
-			"keccak256": "0x9c3b66dd1ba9468bfbf22ea188c2e89b122e4e03349632573e212be74bf53e83",
+			"keccak256": "0x9e27b35a1bb41e52b98a2e05895bddc716a3cdaf0be18947312d3b1d307590d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f2ec99a626813f41f774f180336a7633ecd6ab00a1b88929ffdd2fcb7f516b2b",
-				"dweb:/ipfs/QmWdER29BrFWbqDUU7hXJaaqV9EhBLeULUzWnJGtw5vAUr"
+				"bzz-raw://812b2316f1b11b593338fd89152365eb109cc731bdc518cb4203257fe2ccdca6",
+				"dweb:/ipfs/QmefFi7kqATMbCwPNUxf9BQimfEUacPpivNsdyR2EyJFTs"
 			]
 		}
 	},
